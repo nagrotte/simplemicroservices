@@ -42,3 +42,4 @@ D:\Microservices\SimpleMicroService\UserService\obj\Debug\netcoreapp3.1\UserServ
 D:\Microservices\SimpleMicroService\UserService\obj\Debug\netcoreapp3.1\UserService.dll
 D:\Microservices\SimpleMicroService\UserService\obj\Debug\netcoreapp3.1\UserService.pdb
 D:\Microservices\SimpleMicroService\UserService\obj\Debug\netcoreapp3.1\UserService.genruntimeconfig.cache
+D:\Microservices\SimpleMicroService\UserService\bin\Debug\netcoreapp3.1\aws-beanstalk-tools-defaults.json

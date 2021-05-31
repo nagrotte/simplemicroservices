@@ -53,6 +53,12 @@ namespace UserService.Database
             u3.Email = "Zoya.khan@gmail.com";
             userList.Add(u3);
 
+            User u4 = new User();
+
+            u4.Name = "Siri Rotte";
+            u4.Email = "siri.rotte@gmail.com";
+            userList.Add(u4);
+
             return userList;
 
         }
