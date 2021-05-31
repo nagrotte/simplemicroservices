@@ -41,6 +41,7 @@ namespace UserService.Database
             u1.Name = "Nag Rotte";
             u1.Email = "nag.rotte@gmail.com";
             userList.Add(u1);
+            
             User u2 = new User();
 
             u2.Name = "Lalita Rotte";
@@ -49,7 +50,7 @@ namespace UserService.Database
             User u3 = new User();
 
             u3.Name = "Zoya Khan";
-            u2.Email = "Zoya.khan@gmail.com";
+            u3.Email = "Zoya.khan@gmail.com";
             userList.Add(u3);
 
             return userList;
