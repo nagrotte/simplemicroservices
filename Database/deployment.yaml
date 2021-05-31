@@ -22,11 +22,13 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: my-service
+  name: my-simplemicroservice
 spec:
   selector:
     app: simplemicroservice
   ports:
     - protocol: TCP
       port: 80
-      targetPort: 9376
+      targetPort: 80
+      nodePort: 31000
+    type: NodePort
