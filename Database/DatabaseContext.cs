@@ -37,13 +37,21 @@ namespace UserService.Database
 
             string CS = _connectionString;
             userList = new List<User>();
-            User u = new User();
-            u.Name = "Nag Rotte";
-            u.Email = "nag.rotte@gmail.com";
-            userList.Add(u);
-            u.Name = "John Doe";
-            u.Email = "john.Doe@gmail.com";
-            userList.Add(u);
+            User u1 = new User();
+            u1.Name = "Nag Rotte";
+            u1.Email = "nag.rotte@gmail.com";
+            userList.Add(u1);
+            User u2 = new User();
+
+            u2.Name = "Lalita Rotte";
+            u2.Email = "Lalita.Rotte@gmail.com";
+            userList.Add(u2);
+            User u3 = new User();
+
+            u3.Name = "Zoya Khan";
+            u2.Email = "Zoya.khan@gmail.com";
+            userList.Add(u3);
+
             return userList;
 
         }
