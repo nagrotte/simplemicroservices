@@ -27,7 +27,7 @@ namespace UserService.Controllers
         [HttpGet]
         public IEnumerable<User> Get()
         {
-            return _dbContext.Users.ToList();
+            return _dbContext.GetUsers();
         }
 
         // GET api/<UserController>/5
