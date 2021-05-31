@@ -1,19 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: userservice
+  name: simplemicroservice
+  namespace: default
 spec:
+  replicas: 1
   selector:
     matchLabels:
-      app: simplemicroservice
-replicas: 2
-template:
-  metadata:
-    labels:
-      app:  simplemicroservice
-spec:
-  containers: 
-  - name: simplemicroservice
-    image:  nagrotte/simplemicroservice:latest
-    ports:
-    - containerPort: 80 
+      bb: simplemicroservice
+  template:
+    metadata:
+      labels:
+        bb: simplemicroservice
+    spec:
+      containers:
+      - name: simplemicroservice
+        image: nagrotte/simplemicroservice:latest
+        ports:
+        - containerPort: 80
+
